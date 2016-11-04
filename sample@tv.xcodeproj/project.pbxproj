@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18778FC01DCD054900B0A13A /* babuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18778FBF1DCD054900B0A13A /* babuViewController.swift */; };
 		18C2C8131DC8327E004C3D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C8121DC8327E004C3D0B /* AppDelegate.swift */; };
 		18C2C8151DC8327E004C3D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C8141DC8327E004C3D0B /* ViewController.swift */; };
 		18C2C8181DC8327E004C3D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2C8161DC8327E004C3D0B /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18778FBF1DCD054900B0A13A /* babuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = babuViewController.swift; sourceTree = "<group>"; };
 		18C2C80F1DC8327D004C3D0B /* sample@tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample@tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2C8121DC8327E004C3D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C2C8141DC8327E004C3D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				18C2C8121DC8327E004C3D0B /* AppDelegate.swift */,
 				18C2C8141DC8327E004C3D0B /* ViewController.swift */,
+				18778FBF1DCD054900B0A13A /* babuViewController.swift */,
 				18C2C8161DC8327E004C3D0B /* Main.storyboard */,
 				18C2C81C1DC8327E004C3D0B /* Assets.xcassets */,
 				18C2C81E1DC8327E004C3D0B /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18778FC01DCD054900B0A13A /* babuViewController.swift in Sources */,
 				18C2C8151DC8327E004C3D0B /* ViewController.swift in Sources */,
 				18C2C8131DC8327E004C3D0B /* AppDelegate.swift in Sources */,
 				18C2C81B1DC8327E004C3D0B /* sample_tv.xcdatamodeld in Sources */,
@@ -489,6 +493,7 @@
 				18C2C83C1DC8327F004C3D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C2C83D1DC8327F004C3D0B /* Build configuration list for PBXNativeTarget "sample@tvTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				18C2C83F1DC8327F004C3D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C2C8401DC8327F004C3D0B /* Build configuration list for PBXNativeTarget "sample@tvUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				18C2C8421DC8327F004C3D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

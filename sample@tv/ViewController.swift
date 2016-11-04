@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     @IBOutlet var exampletableview: UITableView!
     
     
-    var numbers = ["1","2","3","4","5"]
+    var numbers = ["😎","😈","😁"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,6 +30,20 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         
         return cell
         
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        let number = numbers[indexPath.row]
+        performSegueWithIdentifier("goSeque", sender: number)
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        let babuvc = segue.destinationViewController as! babuViewController
+        
+        babuvc.number = sender as! String
     }
 
     override func didReceiveMemoryWarning() {
