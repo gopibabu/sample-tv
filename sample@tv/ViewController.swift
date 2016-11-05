@@ -34,6 +34,8 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
+         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
         let number = numbers[indexPath.row]
         performSegueWithIdentifier("goSeque", sender: number)
         
